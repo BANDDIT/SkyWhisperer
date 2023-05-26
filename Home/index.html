@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Julius+Sans+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="main_first">
+        <div class="header">
+            <div class="header_desktop">
+                <h2>SkyWhisperer</h2>
+                <nav>
+                    <a href="#weather">Weather</a>
+                    <a href="#faq_sect">FAQ</a>
+                </nav>
+            </div>
+            <!--
+            <div class="header_responsif">
+                <div class="header_responsive_menu">
+                    <div class="menu_responsive">
+                        <div class="menu_responsive_bar"></div>
+                        <div class="menu_responsive_bar"></div>
+                        <div class="menu_responsive_bar"></div>
+                    </div>
+                </div>
+                <div class="home">
+                    <a href="#weather">Weather</a>
+                </div>
+                <div class="faq">
+                    <a href="#faq_sect">FAQ</a>
+                </div>
+            </div>
+        -->
+        </div>
+
+        <div class="main_first_content">
+            <h2 class="main_first_content_quote">
+            </h2>
+            <a href="#weather" class="btn_get_started">
+                Get Started
+            </a>
+        </div>
+
+        <video autoplay loop muted plays-inline>
+            <source src="../Asset/background_first.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+    <main id="weather">
+        <video autoplay loop muted plays-inline>
+            <source src="../Asset/background_main.mp4" type="video/mp4">
+        </video>
+        <div class="card element element_odd">
+            <div class="weather_city">
+                <h1 class="weather_judul">Weather</h1>
+                <h1 class="weather_judul">&nbsp;Of&nbsp;</h1>
+                <h1 class="city_name">Jakarta</h1>
+            </div>
+
+            <img src="" class="weather_symbol"/>
+
+            <div class="sky">
+                <h2 class="sky_judul">Sky Condition :&nbsp;</h2>
+                <h2 class="sky_content">Testing</h2>
+            </div>
+            <div class="temperature">
+                <h2 class="temperature_judul">Temperature :&nbsp;</h2>
+                <h2 class="temperature_content">Testing</h2>
+            </div>
+            <div class="wind">
+                <h2 class="wind_judul">Wind Speed :&nbsp;</h2>
+                <h2 class="wind_content">Testing</h2>
+            </div>
+
+            <div class="day_night">
+                <h2 class="day_night_judul">Day/Night :&nbsp;</h2>
+                <h2 class="day_night_content">Testing</h2>
+            </div>
+        <!--FAQ-NYA TARO TENGAH AJAAA-->
+
+            <div class="city_search">
+                <img src="../Asset/kaca_pembesar.png" class="kaca_pembesar"/>
+                <input type="text" class="input_city" placeholder="Seach your city here"/>
+            </div>
+        </div>
+    </main>
+
+
+    <div class="faq_section" id="faq_sect">
+        <div class="faq_section_judul element element_even">
+            <div class="green"></div>
+            <h1>Frequently Asked Question</h1>
+        </div>
+
+        <div class="section element element_odd">
+            <div class="section_judul">
+                <h1>How often data will be updated?</h1>
+                <div class="plus">+</div>
+            </div>
+            <div class="section_content">
+                <p>Data will be updated every one hour.</p>
+            </div>
+        </div>
+
+        <div class="section element element_even">
+            <div class="section_judul">
+                <h1>Is every city included here?</h1>
+                <div class="plus">+</div>
+            </div>
+            <div class="section_content">
+                <p>Not all cities are included, but most of the cities around the world are already listed here, especially the famous ones.</p>
+            </div>
+        </div>
+
+
+        <div class="section element element_odd">
+            <div class="section_judul">
+                <h1>What can I search for?</h1>
+                <div class="plus">+</div>
+            </div>
+            <div class="section_content">
+                <p>You can search for weather information about cities, countries, continents, globally, or even other planets.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--ATAU FAQ-NYA DISISINI DIANTARA MAIN SM FOOTER JUGA OKEH-->
+    <footer>
+        <div class="footer_default">
+            <div class="footer_logo">
+                <h1>SkyWhisperer</h1>
+                <p>&copy; Copyright 2023 SkyWhisperer, All Rights Reserved</p>
+            </div>
+            <div class="footer_line"></div>
+            <div class="footer_content">
+                <div class="footer_features">
+                    <h3>Navigate</h3>
+                    <a href="#weather">Weather</a>
+                    <a href="#faq_sect">FAQ</a>
+                </div>
+                <div class="footer_information">
+                    <h3>Information</h3>
+                    <a>Privacy & Policy</a>
+                    <a>Terms & Conditions</a>       
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer_responsive">
+            <div class="footer_responsive_logo">
+                <div class="footer_logo_forResponsive">
+                    <h1>SkyWhisperer</h1>
+                    <p>&copy; Copyright 2023 SkyWhisperer, All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="footer_content_forResponsive">
+                <a>Privacy & Policy</a>
+                <a href="#weather">Weather</a>
+                <a href="#faq_sect">FAQ</a>
+                <a>Terms & Conditions</a>
+            </div>
+        </div>
+    
+        <div class="footer_responsive_mobile">
+            <h1>SkyWhisperer</h1>
+            <p>&copy; Copyright 2023 SkyWhisperer, All Rights Reserved</p>
+            <a href="#faq_sect">FAQ</a>
+            <a href="#weather">Weather</a>
+            <a>Privacy & Policy</a>
+            <a>Terms & Conditions</a>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
